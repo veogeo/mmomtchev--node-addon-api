@@ -4,8 +4,8 @@ set -e
 # 🧭 Configuración
 VERSION="8.0.0"
 PKG_NAME="node-addon-api"
-SOURCE_DIR="src/node-addon-api"
-BUILD_DIR="$PWD/${PKG_NAME}"
+SOURCE_DIR="$PWD"
+BUILD_DIR="$PWD/build/${PKG_NAME}"
 
 echo "🚀 Empaquetando ${PKG_NAME} versión ${VERSION}"
 
