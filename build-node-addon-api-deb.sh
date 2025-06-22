@@ -36,4 +36,4 @@ dpkg-deb --build "$BUILD_DIR"
 
 # ✅ Mostrar resultado
 echo "✅ Paquete generado:"
-ls -lh "$BUILD_DIR/${PKG_NAME}.deb"
+ls -lh "$PWD/build/${PKG_NAME}.deb"
